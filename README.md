@@ -1,9 +1,3 @@
-# -
-虚拟数字自动化实验室调度系统(Virtual Robot Chemist Brain)
-
-
-模拟接收自然语言指令，自动拆解实验步骤，并异步调度各个“虚拟设备”完成实验的全过程
-
 # 🧪 Virtual Lab Agent (自动化实验室多智能体调度中枢)
 
 ![Version](https://img.shields.io/badge/version-2.0-blue.svg)
@@ -11,7 +5,7 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-Framework-009688.svg)
 ![Redis](https://img.shields.io/badge/Redis-Cache-DC382D.svg)
 
-本项目是一个面向 **AI for Science (数字孪生/自动化实验室)** 赛道的软硬结合高并发调度系统。旨在通过大语言模型 (LLM) 与高频异步网络通信，实现从自然语言指令到多端底层硬件（光电传感器、工业机械臂）的自动化编排与无阻塞执行。
+本项目是一个面向 **AI for Science (数字孪生/自动化实验室)** 赛道的软硬结合高并发调度系统。旨在通过大语言模型 (LLM) 与高频异步网络通信，实现从自然语言指令到多端底层硬件（光电传感器、工业机械臂）的自动化编排与无阻塞执行。虚拟数字自动化实验室调度系统(Virtual Robot Chemist Brain)，模拟接收自然语言指令，自动拆解实验步骤，并异步调度各个“虚拟设备”完成实验的全过程
 
 ## ✨ 核心特性与系统架构
 
