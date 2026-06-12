@@ -26,7 +26,7 @@ app.add_middleware(
 )
 
 # 实例化大模型与虚拟设备
-client = ZhipuAI(api_key="16db9b9852fd47e4af6364c0555225ab.QW5M4kSIg0Ewc9I3")
+client = ZhipuAI(api_key="79e049bb823c4074bcbe240ce31a050a.t3uXPkacJIGNnnBG")
 arm_01 = VirtualRobotArm("UR5_工业机械臂")
 microscope_01 = VirtualMicroscope("Zeiss_Optic_01")
 
