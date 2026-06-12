@@ -1,3 +1,5 @@
+操作指南
+
 1.克隆与环境准备
 # cmd:终端运行下列代码,使用正确的仓库链接克隆
 git clone https://github.com/zxzxzx66066/Virtual-Robot-Chemist-Brain.git
@@ -20,12 +22,12 @@ pip install sniffio
 在 main.py 中
 client = ZhipuAI(api_key="*********") # 填入你的智谱 GLM-4 API Key并保存
 
-3.启动调度中枢 (Backend)
+3.启动调度中枢 
 cmd:终端运行下列代码
 # 启动后端高并发网关
 uvicorn main:app --reload 
 
-4.启动控制台 (Frontend)
+4.启动控制台
 打开 Windows 的文件资源管理器，进入你刚刚克隆代码的目录：
 C:\Users\用户名\Virtual-Robot-Chemist-Brain
 直接使用浏览器打开项目根目录下的 index.html，即可体验全栈实时调度。
