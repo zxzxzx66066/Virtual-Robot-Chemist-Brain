@@ -26,7 +26,7 @@ app.add_middleware(
 )
 
 # 实例化大模型与虚拟设备
-client = ZhipuAI(api_key="79e049bb823c4074bcbe240ce31a050a.t3uXPkacJIGNnnBG")
+client = ZhipuAI(api_key="16db9b9852fd47e4af6364c0555225ab.QW5M4kSIg0Ewc9I3")
 arm_01 = VirtualRobotArm("UR5_工业机械臂")
 microscope_01 = VirtualMicroscope("Zeiss_Optic_01")
 
@@ -55,7 +55,7 @@ async def background_agent_pipeline(task_id: str, instruction: str):
         
         # 模拟真实网络请求
         response = client.chat.completions.create(
-            model="glm-4.5-air",
+            model="glm-4-flash",
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": instruction}
