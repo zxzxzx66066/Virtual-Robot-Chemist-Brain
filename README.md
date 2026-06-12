@@ -4,7 +4,8 @@
 ![Python](https://img.shields.io/badge/python-3.11%2B-brightgreen.svg)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Framework-009688.svg)
 ![Redis](https://img.shields.io/badge/Redis-Cache-DC382D.svg)
-
+![Vue3](https://img.shields.io/badge/Vue.js-3.0-4FC08D.svg)
+![LLM](https://img.shields.io/badge/LLM-GLM--4-purple.svg)
 本项目是一个面向 **AI for Science (数字孪生/自动化实验室)** 赛道的软硬结合高并发调度系统。旨在通过大语言模型 (LLM) 与高频异步网络通信，实现从自然语言指令到多端底层硬件（光电传感器、工业机械臂）的自动化编排与无阻塞执行。
 
 ![Demo](demo.gif)
