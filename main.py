@@ -55,7 +55,7 @@ async def background_agent_pipeline(task_id: str, instruction: str):
         
         # 模拟真实网络请求
         response = client.chat.completions.create(
-            model="glm-4-flash",
+            model="glm-4.5-air",
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": instruction}
