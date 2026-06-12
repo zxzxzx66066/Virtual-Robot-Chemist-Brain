@@ -23,7 +23,7 @@ graph TD
     E --> G[Zeiss 显微镜模拟]
     F --> D
     G --> D
-```## ✨ 核心特性
+## ✨ 核心特性
 
 * **🧠 智能体任务编排 (Agent Orchestration):** 通过深度 Prompt Engineering，约束大模型输出严格的 JSON 格式，将非结构化自然语言精准转化为机器可读的执行队列。
 * **⚡ 异步无阻塞网关 (Asynchronous I/O):** 采用 `FastAPI` + `BackgroundTasks`，将动辄几小时的物理采样任务转入后台执行，主线程秒级返回，极大提升 API 吞吐量。
