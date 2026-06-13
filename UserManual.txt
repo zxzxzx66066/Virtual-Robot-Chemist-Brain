@@ -1,4 +1,4 @@
-操作指南
+网页版操作指南
 
 1.克隆与环境准备
 # cmd:终端运行下列代码,使用正确的仓库链接克隆
@@ -18,7 +18,7 @@ pip install fastapi uvicorn redis fakeredis pydantic zhipuai
 pip install sniffio
 
 2.配置模型秘钥
-打开 Windows 的文件资源管理器，，进入你刚刚克隆代码的全新目录：C:\Users\用户名\Virtual-Robot-Chemist-Brain
+打开 Windows 的文件资源管理器，进入你刚刚克隆代码的全新目录：C:\Users\用户名\Virtual-Robot-Chemist-Brain
 在 main.py 中
 client = ZhipuAI(api_key="*********") # 填入你的智谱 GLM-4 API Key并保存
 
